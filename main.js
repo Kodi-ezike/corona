@@ -21,7 +21,7 @@ document.querySelector('#cases').addEventListener("click",function() {
     //From here we can now start placing our data in places
     output = `
     <h2>${lastItem.Country}</h2>
-    <p><b>Confired</b>: ${lastItem.Confirmed}</p>
+    <p><b>Confirmed</b>: ${lastItem.Confirmed}</p>
     <p><b>Active</b>: ${lastItem.Active}</p>
     <p><b>Recovered</b>: ${lastItem.Recovered}</p>
     <p><b>Deaths</b>: ${lastItem.Deaths}</p>
